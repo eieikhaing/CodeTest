@@ -7,5 +7,25 @@
     <fragment
         android:id="@+id/splashScreenFragment"
         android:name="com.hana.codetest.ui.splash.SplashScreenFragment"
-        android:label="SplashScreenFragment" />
+        android:label="SplashScreenFragment" >
+        <action
+            android:id="@+id/action_splashScreenFragment_to_userListFragment"
+            app:destination="@id/userListFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/splashScreenFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/userListFragment"
+        android:name="com.hana.codetest.ui.user.UserListFragment"
+        android:label="UserListFragment" >
+        <action
+            android:id="@+id/action_userListFragment_to_userDetailFragment"
+            app:destination="@id/userDetailFragment"
+            app:popUpTo="@id/userListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/userDetailFragment"
+        android:name="com.hana.codetest.ui.user.UserDetailFragment"
+        android:label="UserDetailFragment" />
 </navigation>

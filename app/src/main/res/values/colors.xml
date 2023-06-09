@@ -12,16 +12,4 @@
     <color name="colorText">#000000</color>
     <color name="colorWhite">#FFFFFF</color>
     <color name="colorBorder_stroke">#1B1817</color>
-    <color name="colorBottom_sheet_container">#B1AEAC</color>
-    <color name="colorSearch_text_box">#ECECEC</color>
-    <color name="bottom_sheet_container_color">#D5424242</color>
-    <color name="slider_selected_color">#5A5A5A</color>
-    <color name="slider_unselected_color">#FFF</color>
-    <color name="colorGold">#FFEB3B</color>
-    <color name="colorRedGrey">#AF4C4C</color>
-    <color name="chatBackground">#c0c0c0</color>
-    <color name="chatLayoutBackground">#ECF0F1</color>
-    <color name="timelineGreen">#AEFFBB</color>
-    <color name="colorShowCaseBg">#C6121010</color>
-    <color name="color_chat_receive">#FBFFDF</color>
 </resources>

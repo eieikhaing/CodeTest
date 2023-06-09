@@ -27,9 +27,9 @@
 
         <ImageView
             android:id="@+id/iv_splashLogo"
-            android:layout_width="@dimen/splash_screen_logo_size"
-            android:layout_height="@dimen/splash_screen_logo_size"
-            android:src="@drawable/kinetichub_logo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_launcher_foreground"
             app:layout_constraintBottom_toBottomOf="@id/parent"
             app:layout_constraintEnd_toEndOf="@id/parent"
             app:layout_constraintStart_toStartOf="@id/parent"
